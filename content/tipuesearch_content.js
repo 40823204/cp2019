@@ -1,1 +1,1 @@
-var tipuesearch = {"pages": [{'title': 'About', 'text': '\n', 'tags': '', 'url': 'About.html'}, {'title': 'USB', 'text': '', 'tags': '', 'url': 'USB.html'}]};
+var tipuesearch = {"pages": [{'title': 'About', 'text': '\n \n int i;\nint sum;\n\nmain() {\n  sum = 0;\n  for (i=1;i <= 10 ;i++) {\n    sum += i;\n    print("$sum");\n  }\n  print(\'sum = $sum\');\n}\n\n\n \n', 'tags': '', 'url': 'About.html'}, {'title': 'USB', 'text': '', 'tags': '', 'url': 'USB.html'}]};
