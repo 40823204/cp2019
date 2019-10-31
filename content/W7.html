@@ -1,6 +1,6 @@
 <!DOCTYPE html><html>
         <head>
-        <title>CMSiMDE</title>
+        <title>40823204</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
@@ -138,7 +138,7 @@ init_mathjax();
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li><a href='W6.html'>W6</a><li><a href='USB2.html'>USB2</a></li>
+                     <li><a href='About.html'>About</a><li><a href='W6.html'>W6</a><li><a href='W7.html'>W7</a></li>
                       </ul>
                 </nav>
               </div>
@@ -149,8 +149,37 @@ init_mathjax();
           </div>
           
         </header>
-    <div id="tipue_search_content">W6 << <a href='W6.html'>Previous</a> <br /><h1>USB2</h1>
-<p></p><br />W6 << <a href='W6.html'>Previous</a> </div>
+    <div id="tipue_search_content">W6 << <a href='W6.html'>Previous</a> <br /><h1>W7</h1>
+<p>程式碼</p>
+<pre class="brush:dart;auto-links:false;toolbar:false" contenteditable="false">rungeKutta(t0, x0, t, h) {
+  int n = ((t - t0) / h).toInt();
+  double x = x0;
+  for (int i = 1; i &lt;= n; i++) {
+    double k1 = h * dxdt(t0, x);
+    double k2 = h * dxdt(t0 + 0.5 * h, x + 0.5 * k1);
+    double k3 = h * dxdt(t0 + 0.5 * h, x + 0.5 * k2);
+    double k4 = h * dxdt(t0 + h, x + k3);
+    x = x + (1.0 / 6.0) * (k1 + 2 * k2 + 2 * k3 + k4);
+    t0 = t0 + h;
+  }
+  return x;
+}
+ 
+dxdt(t, x) {
+  return ((t - x) / 2);
+}
+ 
+main() {
+  num t0 = 0;
+  num x = 1;
+  num t = 2;
+  double h = 0.2;
+  print('The value of x at t=$t is: ${rungeKutta(t0, x, t, h)}');
+}</pre>
+<p></p>
+<p><iframe height="600" src="https://dartpad.dev/embed-inline.html?id=a5ca713bfd1aebc5967d35d9d839a7e8" width="800" widths="800"></iframe></p>
+<p><a href="https://dartpad.dev/embed-inline.html?
+id=a5ca713bfd1aebc5967d35d9d839a7e8"><span style="vertical-align: inherit;"> <span style="vertical-align: inherit;">https://dartpad.dev/embed-inline.html?id=a5ca713bfd1aebc5967d35d9d839a7e8</span></span></a></p><br />W6 << <a href='W6.html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">
