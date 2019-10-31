@@ -41,5 +41,32 @@ main() {
 <p><iframe height="400" src="https://dartpad.dev/embed-inline.html?id=6cc59709dc5af1e2d6362f84ecc81620" width="500" widths="800"></iframe></p>
 <p></p>
 <p><a href="https://dartpad.dev/embed-inline.html?
-id=6cc59709dc5af1e2d6362f84ecc81620"><span style="vertical-align: inherit;"> <span style="vertical-align: inherit;">https://dartpad.dev/embed-inline.html?id=6cc59709dc5af1e2d6362f84ecc81620</span></span></a></p><h1>USB2</h1>
+id=6cc59709dc5af1e2d6362f84ecc81620"><span style="vertical-align: inherit;"> <span style="vertical-align: inherit;">https://dartpad.dev/embed-inline.html?id=6cc59709dc5af1e2d6362f84ecc81620</span></span></a></p><h1>W7</h1>
+<p>程式碼</p>
+<pre class="brush:dart;auto-links:false;toolbar:false" contenteditable="false">rungeKutta(t0, x0, t, h) {
+  int n = ((t - t0) / h).toInt();
+  double x = x0;
+  for (int i = 1; i &lt;= n; i++) {
+    double k1 = h * dxdt(t0, x);
+    double k2 = h * dxdt(t0 + 0.5 * h, x + 0.5 * k1);
+    double k3 = h * dxdt(t0 + 0.5 * h, x + 0.5 * k2);
+    double k4 = h * dxdt(t0 + h, x + k3);
+    x = x + (1.0 / 6.0) * (k1 + 2 * k2 + 2 * k3 + k4);
+    t0 = t0 + h;
+  }
+  return x;
+}
+ 
+dxdt(t, x) {
+  return ((t - x) / 2);
+}
+ 
+main() {
+  num t0 = 0;
+  num x = 1;
+  num t = 2;
+  double h = 0.2;
+  print('The value of x at t=$t is: ${rungeKutta(t0, x, t, h)}');
+}</pre>
 <p></p>
+<p><iframe height="600" src="https://dartpad.dev/embed-inline.html?id=a5ca713bfd1aebc5967d35d9d839a7e8" width="800" widths="800"></iframe></p>
