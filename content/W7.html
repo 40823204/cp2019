@@ -176,6 +176,27 @@ main() {
   double h = 0.2;
   print('The value of x at t=$t is: ${rungeKutta(t0, x, t, h)}');
 }</pre>
+<script>
+function getDart(dirname){ 
+source = "https://dartpad.dev/embed-dart.html?gh_owner=40823204&gh_repo=cp2019&gh_path=downloads/" + dirname + "&theme=dark"; document.getElementById("iframe").src = source ; 
+} 
+function getHtmlDart(dirname){ 
+source = "https://dartpad.dev/embed-html.html?gh_owner=40823204&gh_repo=cp2019&gh_path=downloads/" + dirname + "&theme=dark"; document.getElementById("iframe").src = source ;
+ }
+function getFlutter(dirname){
+ source = "https://dartpad.dev/embed-html.html?gh_owner=40823204&gh_repo=cp2019&gh_path=downloads/" + dirname + "&theme=dark"; document.getElementById("iframe").src = source ;
+ }
+function largest(){
+document.getElementById("iframe").width=document.body.clientWidth ;
+document.getElementById("iframe").height=document.body.clientWidth*0.5 ;
+}
+function largest(){
+document.getElementById("iframe").width=500 ;
+document.getElementById("iframe").height=400 ;
+}
+</script>
+<!-- 取 Dart 程式的按鈕 -->
+<p><button onclick="getDart('hello')">Hello</button> <button onclick="getDart('for')">For Loop</button> <button onclick="getDart('sum')">Sum</button> <button onclick="getDart('runge_kutta')">Runge-Kutta</button> <button onclick="getDart('mass_spring_damping')">Mass Spring Damping</button> <button onclick="getHtmlDart('roc_flag')">ROC Flag</button> <button onclick="getHtmlDart('grid')">Grid</button></p>
 <p></p>
 <p><iframe height="600" src="https://dartpad.dev/embed-inline.html?id=a5ca713bfd1aebc5967d35d9d839a7e8" width="800" widths="800"></iframe></p>
 <p><span style="vertical-align: inherit;"> <span style="vertical-align: inherit;"><a href="https://dartpad.dev/embed-inline.html?id=a5ca713bfd1aebc5967d35d9d839a7e8">https://dartpad.dev/embed-inline.html?id=a5ca713bfd1aebc5967d35d9d839a7e8</a><a href="https://dartpad.dev/embed-inline.html?
