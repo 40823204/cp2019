@@ -150,20 +150,22 @@ init_mathjax();
           
         </header>
     <div id="tipue_search_content">W16 << <a href='W16.html'>Previous</a> <br /><h1>W17</h1>
-<h4>Dart 程式</h4>
-<p><button onclick="getDart('kg,ib')">kg ib</button></p>
+<h4>純 Dart 程式</h4>
+<p><button onclick="getDart('weight-dart')">重量轉換</button></p>
 <h4>Html 程式</h4>
-<p><button onclick="getHtmlDart('kg.ib')">kg ib</button> <button onclick="getHtmlDart('USA')">Flag</button></p>
+<p><button onclick="getHtmlDart('weight')">重量轉換</button></p>
+<p><button onclick="getHtmlDart('flag')">各國國旗</button></p>
 <!-- 內建放入的 Dart 原始碼 -->
 <p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
-<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823125&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/cf&amp;theme=dark" width="800"></iframe></p>
-<p>輸入所要轉換的溫度 <input id="F" max="125" min="-40" type="string" value="25kg"/> <input id="submit" type="button" value="轉換"/> 轉換結果: <label id="output"></label></p>
-<script src="/get_page/downloads/dart_ex/kg ib/kg,ib.js"></script>
-<div id="wrapper"><canvas height="200" id="canvas" width="300"></canvas> <button id="button">Clear Canvas</button> <button id="jap">Draw Jap</button> <button id="roc">Draw ROC</button> <button id="fra">Draw Fra</button> <button id="rus">Draw Rus</button> <button id="usa">Draw Usa</button> <button id="uk">Draw Uk</button> <button id="ger">Draw Ger</button> <button id="net">Draw Net</button></div>
-<p>
-<script src="/get_page/downloads/dart_ex/USA/Flag.js"></script>
-</p>
-<p><br/>W16 &lt;&lt; <a href="/get_page/W17/W16.html">Previous</a> <a href="/get_page/W17/Wed.html">Next</a> &gt;&gt; Wed</p>
+<p><br/><iframe height="600" id="iframe" src="https://dartpad.github.io/embed-dart.html?gh_owner=40823220&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/weight-dart&amp;theme=dark" width="800"></iframe>.</p>
+<script src="/get_page/cmsimde/static/chimper/js/main.js"></script>
+<p>請輸入所要轉換的重量<br/>以數字加上 kg 或 lb:<br/><br/><input id="temp" max="30" min="1" type="text" value="20kg"/> <input id="submit" type="button" value="換算"/><br/> <br/>轉換結果:<br/><br/><label id="output"></label></p>
+<script src="/get_page/downloads/dart_ex/weight/weight.js"></script>
+<p>國旗</p>
+<p><canvas height="200" id="canvas" width="300"></canvas></p>
+<p><button id="button">Clear Canvas</button> <button id="cuba">Draw Cuba</button> <button id="china">Draw CHINA</button> <button id="San">Draw SAN</button> <button id="usa">Draw USA</button> <button id="uk">Draw UK</button> <button id="canada">Draw Canada</button></p>
+<script src="/get_page/downloads/dart_ex/flag/flag.js"></script>
+<p><br/>w16查驗考試 &lt;&lt; <a href="/get_page/W17/w16查驗考試.html">Previous</a></p>
 <!-- footer -->
 <div class="container">
 <div class="row pt-3 mx-auto">
