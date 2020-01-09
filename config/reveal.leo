@@ -89,9 +89,9 @@ Created by [40823204](https://40823204.github.io/cp2019/content/index.html)
 
 						
 </t>
-<t tx="leo.20180902120523.15"># BG1溫度
+<t tx="leo.20180902120523.15"># 溫度
 
-&lt;iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823204&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/new/mass_spring_damping&amp;amp;theme=dark" width="800"&gt;&lt;/iframe&gt;</t>
+&lt;iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823204&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/new/temperature&amp;amp;theme=dark" width="800"&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -279,7 +279,7 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="leo.20200109145231.1"># CF轉換
 
-&lt;iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823204&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/new/mass_spring_damping&amp;amp;theme=dark" width="800"&gt;&lt;/iframe&gt;</t>
+&lt;iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823204&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/new/cf_change&amp;amp;theme=dark" width="800"&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200109145333.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
