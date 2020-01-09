@@ -68,10 +68,9 @@ Created by 40823204(http://lab.kmol.info/)
 </t>
 <t tx="leo.20180902120523.12"># 目錄
 
-* [hello](https://40823204.github.io/cp2019/reveal/index.html#/2)
-* [for迴圈](https://40823204.github.io/cp2019/reveal/index.html#/2/1)
-* [溫度轉換](https://40823204.github.io/cp2019/reveal/index.html#/2/2)
-* [心得](https://40823204.github.io/cp2019/reveal/index.html#/2/3)
+* [BG1溫度](https://40823204.github.io/cp2019/reveal/index.html#/2)
+* [CF轉換](https://40823204.github.io/cp2019/reveal/index.html#/2/1)
+* [心得](https://40823204.github.io/cp2019/reveal/index.html#/2/2)
 
 </t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
