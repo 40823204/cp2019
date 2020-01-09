@@ -31,9 +31,6 @@
 <v t="leo.20200109145333.1"><vh>newHeadline</vh>
 <v t="leo.20200109145231.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20200109145430.1"><vh>newHeadline</vh>
-<v t="leo.20200109145428.1"><vh>newHeadline</vh></v>
-</v>
 <v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
@@ -285,18 +282,6 @@ vertical: body pane on the botton</t>
 
 &lt;iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823204&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/new/mass_spring_damping&amp;amp;theme=dark" width="800"&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200109145333.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20200109145428.1"># CF
-
-&lt;iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523111&amp;amp;gh_repo=cp2019&amp;amp;gh_path=new/cf_change&amp;amp;theme=dark" width="900"&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20200109145430.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
