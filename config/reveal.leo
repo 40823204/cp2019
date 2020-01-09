@@ -34,6 +34,9 @@
 <v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
+<v t="leo.20200109150241.1"><vh>newHeadline</vh>
+<v t="leo.20200109150244.1"><vh>newHeadline</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -71,6 +74,7 @@ Created by 40823204(http://lab.kmol.info/)
 * [BG1溫度](https://40823204.github.io/cp2019/reveal/index.html#/2)
 * [CF轉換](https://40823204.github.io/cp2019/reveal/index.html#/2/1)
 * [心得](https://40823204.github.io/cp2019/reveal/index.html#/2/2)
+* [自評](https://40823204.github.io/cp2019/reveal/index.html#/2/3)
 
 </t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
@@ -289,5 +293,17 @@ vertical: body pane on the botton</t>
 
 						
 </t>
+<t tx="leo.20200109150241.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109150244.1"># 自評
+
+我的自評成績是60分，因為在製作程式的時候，都是複製同學的，但是每做完一次我都會仔細的看內容，知道自己在這方面還不行，所以給自己60分。</t>
 </tnodes>
 </leo_file>
