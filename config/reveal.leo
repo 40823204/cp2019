@@ -53,7 +53,7 @@
 ### 賴惟嘉
 
 &lt;small&gt;
-Created by 40823204(https://40823204.github.io/cp2019/content/index.html)
+Created by [40823204](https://40823204.github.io/cp2019/content/index.html)
 &lt;/small&gt;
 </t>
 <t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
