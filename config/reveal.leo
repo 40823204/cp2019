@@ -66,9 +66,9 @@ Created by 40823204(http://lab.kmol.info/)
 <t tx="leo.20180902120523.12"># 目錄
 
 * [hello](https://40823204.github.io/cp2019/reveal/index.html#/2)
-*[for迴圈](https://40823204.github.io/cp2019/reveal/index.html#/2/1)
-*[溫度轉換]((https://40823204.github.io/cp2019/reveal/index.html#/2/2)
-* 心得
+* [for迴圈](https://40823204.github.io/cp2019/reveal/index.html#/2/1)
+* [溫度轉換](https://40823204.github.io/cp2019/reveal/index.html#/2/2)
+* [心得](https://40823204.github.io/cp2019/reveal/index.html#/2/3)
 
 </t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
@@ -87,11 +87,9 @@ Created by 40823204(http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180902120523.15">## 亂數分組
+<t tx="leo.20180902120523.15"># BG1溫度
 
-
-&lt;iframe src="https://dartpad.github.io/embed-html.html?gh_owner=40823204&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/temp2&amp;theme=dark" width="800" height="550"&gt;&lt;/iframe&gt;
-    &lt;/script&gt;</t>
+&lt;iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823204&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/new/mass_spring_damping&amp;amp;theme=dark" width="800"&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
